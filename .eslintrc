@@ -1,0 +1,34 @@
+{
+  "rules": {
+    "semi": [
+      "error",
+      "always"
+    ],
+    "no-unused-vars": "warn",
+    "no-useless-escape": "warn",
+    "no-unused-labels": "warn",
+    "no-console": "off",
+    "arrow-parens": "off"
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  },
+  "env": {
+    "es6": true,
+    "node": true
+  },
+  "settings": {
+    "import/parser": "babel-eslint",
+    "import/resolve": {
+      "moduleDirectory": [
+        "node_modules",
+        "src"
+      ]
+    },
+    "ecmaFeatures": {
+      "classes": true
+    }
+  },
+  "parser": "babel-eslint"
+}

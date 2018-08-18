@@ -1,0 +1,7 @@
+#Ignore WebStorm project files
+/.idea
+
+/node_modules
+
+#Ignore server settings
+/settings.js

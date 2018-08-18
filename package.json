@@ -1,0 +1,24 @@
+{
+  "name": "netguru-recruitment-task",
+  "version": "1.0.0",
+  "description": "Netguru recruitment task. Simple REST API for movies database",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "author": "Przemysław żydek",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "connect-mongo": "^2.0.1",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.17"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.6",
+    "eslint": "4.10.0",
+    "nodemon": "^1.17.5"
+  }
+}
