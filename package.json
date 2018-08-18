@@ -1,7 +1,7 @@
 {
   "name": "netguru-recruitment-task",
   "version": "1.0.0",
-  "description": "Netguru recruitment task. Simple REST API for movies database",
+  "description": "Recruitment task for netguru. A simple REST API for movie database",
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
