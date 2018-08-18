@@ -123,7 +123,36 @@ describe( 'POST /movies', () => {
                     'BoxOffice',
                     'Production',
                     'Website',
-                    '__v'
+                    '__v',
+                    'omdbResponse'
+                );
+                expect( body.omdbResponse ).to.be.a( 'object' );
+                expect( body.omdbResponse ).to.have.all.keys(
+                    'Title',
+                    'Year',
+                    'Rated',
+                    'Released',
+                    'Runtime',
+                    'Genre',
+                    'Director',
+                    'Writer',
+                    'Actors',
+                    'Plot',
+                    'Language',
+                    'Country',
+                    'Awards',
+                    'Poster',
+                    'Ratings',
+                    'Metascore',
+                    'imdbRating',
+                    'imdbVotes',
+                    'imdbID',
+                    'Type',
+                    'DVD',
+                    'BoxOffice',
+                    'Production',
+                    'Website',
+                    'Response'
                 );
 
             } );
