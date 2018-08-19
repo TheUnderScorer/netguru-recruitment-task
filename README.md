@@ -70,8 +70,8 @@ This is simple REST API that interacts with external API (OMDb) build using Node
   | Query parameter  | Description |
   | ------------- | ------------- |
   | page  | Describes currently displayed page. Default value is `1`.  |
-  | limit  | Decides how many movies will be displayed per page. Default value is `10`.  |
-  | movieID  | If provided it will fetch all movies associated with this movie ID.  |
+  | limit  | Decides how many comments will be displayed per page. Default value is `10`.  |
+  | movieID  | If provided it will fetch all comments associated with this movie ID.  |
   
    Example query string `/comments?movieID=5b78643989f11114a411e1c3`.
    
