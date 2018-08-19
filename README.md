@@ -34,8 +34,7 @@ This is simple REST API that interacts with external API (OMDb) build using Node
       }
   };
   ```
-
-- Done! :)
+- `node index.js` and you are done! :)
 
 # Endpoints
 
