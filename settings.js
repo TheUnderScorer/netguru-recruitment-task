@@ -18,6 +18,6 @@ module.exports = {
      * @var {Object} Stores API related properties such as API keys
      * */
     api: {
-        omdba: process.env.omdbApiKey || 'XYZ'
+        omdb: process.env.omdbApiKey || 'XYZ'
     }
 };
