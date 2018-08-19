@@ -2,6 +2,3 @@
 /.idea
 
 /node_modules
-
-#Ignore server settings
-/settings.js
