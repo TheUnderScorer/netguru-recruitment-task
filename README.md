@@ -6,7 +6,7 @@ This is simple REST API that interacts with external API (OMDb) build using Node
 # Requirements
 
 - Node.js and npm
-- MongoDB [Heading Link](#section-i-want)
+- MongoDB
 
 # Installation
 - Clone the repo: ```git clone https://github.com/TheUnderScorer/netguru-recruitment-task```
