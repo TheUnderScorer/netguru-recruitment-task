@@ -30,12 +30,11 @@ This is simple REST API that interacts with external API (OMDb) build using Node
        * */
       api: {
           //Replace with your API key. You can get it here: http://www.omdbapi.com/apikey.aspx
-          omdba: process.env.omdbApiKey || 'XYZ'
+          omdb: process.env.omdbApiKey || 'XYZ'
       }
   };
   ```
-
-- Done! :)
+- `node index.js` and you are done! :)
 
 # Endpoints
 
