@@ -11,7 +11,7 @@ module.exports = {
     db:  {
         host:    process.env.dbHost || 'mongodb://localhost:27017',
         options: {
-            dbName: 'movies_api'
+            dbName: process.env.dbName || 'movies_api'
         }
     },
     /**
