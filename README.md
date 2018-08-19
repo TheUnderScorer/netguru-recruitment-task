@@ -44,7 +44,7 @@ This is simple REST API that interacts with external API (OMDb) build using Node
 
 - GET /movies
 
-  If no query parameters are provided it will simply fetch all movies from the database (10 movies per page by default). This endpoint supports following query parameters.
+  If no query parameters are provided it will simply fetch all movies from the database (10 movies per page by default). This endpoint supports following query parameters:
 
   | Query parameter  | Description |
   | ------------- | ------------- |
@@ -65,7 +65,7 @@ This is simple REST API that interacts with external API (OMDb) build using Node
   
 - GET /comments
 
-  If no query parameters are provided it will fetch all comments from database. This endpoint supports following query parameters.
+  If no query parameters are provided it will fetch all comments from database. This endpoint supports following query parameters:
   
   | Query parameter  | Description |
   | ------------- | ------------- |
