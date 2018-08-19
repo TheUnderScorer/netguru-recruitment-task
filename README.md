@@ -43,6 +43,7 @@ This is simple REST API that interacts with external API (OMDb) build using Node
   Request body should contain only one element `Title`. On success, movie will be saved into application database and you will be presented with object that will contain all movie details . On error you will be presented with [error response](#responses).
 
 - GET /movies
+
   If no query parameters are provided it will simply fetch all movies from the database (10 movies per page by default). This endpoint supports following query parameters.
 
   | Query parameter  | Description |
@@ -64,7 +65,7 @@ This is simple REST API that interacts with external API (OMDb) build using Node
   
 - GET /comments
 
-  If no query parameter it will fetch all comments from database. This endpoint supports following query parameters.
+  If no query parameters are provided it will fetch all comments from database. This endpoint supports following query parameters.
   
   | Query parameter  | Description |
   | ------------- | ------------- |
