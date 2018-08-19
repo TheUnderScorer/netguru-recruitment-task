@@ -89,7 +89,7 @@ describe( 'POST /movies', () => {
             .post( '/movies' )
             .set( 'Accept', 'application/json' )
             .send( {
-                title: 'Harry potter'
+                Title: 'Harry potter'
             } )
             .expect( 'Content-Type', /json/ )
             .expect( 200 )
@@ -165,7 +165,7 @@ describe( 'POST /movies', () => {
             .post( '/movies' )
             .set( 'Accept', 'application/json' )
             .send( {
-                title: 'sgswtgsgsg'
+                Title: 'sgswtgsgsg'
             } )
             .expect( 'Content-Type', /json/ )
             .expect( 404 )

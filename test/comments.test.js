@@ -6,6 +6,7 @@ const chai      = require( 'chai' ),
 describe( 'GET /comments', () => {
 
     it( 'Fetch comments', () => {
+
         api
             .get( '/comments' )
             .set( 'Accept', 'application/json' )
@@ -19,10 +20,11 @@ describe( 'GET /comments', () => {
 
 
             } );
+
     } );
 
     it( 'Fetch comments with invalid movie ID format', () => {
-        
+
         api
             .get( '/comments?movieID=invalid' )
             .set( 'Accept', 'application/json' )
@@ -67,7 +69,6 @@ describe( 'POST /comments', () => {
 
     it( 'Add comment with invalid format of movie ID', () => {
 
-
         api
             .post( '/comments' )
             .set( 'Accept', 'application/json' )
@@ -90,7 +91,6 @@ describe( 'POST /comments', () => {
     } );
 
     it( 'Add comment with invalid movie ID', () => {
-
 
         api
             .post( '/comments' )
